@@ -12,7 +12,7 @@ public class Bow_Tie
 		{
 			for (int j=0;j<n;j++)
 			{
-				if(i==11*(n-1)/n  || i+j>=(n-1)+(n-1)/4 && i<11*(n-1)/n || i-j>=(n-1)/4 && i<11*(n-1)/n)
+				if(i==(n-3)*(n-1)/n  || i+j>=(n-1)+(n-1)/4 && i<(n-3)*(n-1)/n || i-j>=(n-1)/4 && i<(n-3)*(n-1)/n)
 					System.out.print(x);
 				else System.out.print(y);
 			}

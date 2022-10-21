@@ -13,7 +13,7 @@ public class House
 			System.out.print(y);
 			for (int j=0;j<n;j++)
 			{
-				if(i==0 && j>0 && j<n-1 || j==n/16 || i==n-1 && j>0 && j<n-1 || j==n-1 || i+j<=(n-1)/2 && j>0 || j-i>=(n-1)/2 && j<n-1)
+				if(i==0 && j>0 && j<n-1 || j==n/(n+2) || i==n-1 && j>0 && j<n-1 || j==n-1 || i+j<=(n-1)/2 && j>0 || j-i>=(n-1)/2 && j<n-1)
 					System.out.print(x);
 				else System.out.print(y);
 			}

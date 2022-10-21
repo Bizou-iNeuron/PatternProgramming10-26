@@ -12,7 +12,7 @@ public class Pacman {
 			System.out.print(y);
 			for (int j=0;j<n;j++)
 			{
-				if (i==0 && j<15*(n-1)/n || i+j <= 6 || i==13 && j<15*(n-1)/n || i-j>=6 && i<15*(n-1)/n)
+				if (i==0 && j<(n-2)*(n-1)/n || i+j <= (n-11) || i==(n-4) && j<(n-2)*(n-1)/n || i-j>=(n-11) && i<(n-2)*(n-1)/n)
 					System.out.print(x);
 				else System.out.print(y);
 			}
